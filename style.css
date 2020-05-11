@@ -1,0 +1,24 @@
+body {
+	background: #4d3e3e
+}
+
+#title {
+	text-align: center;
+	padding: 15%;
+	font-size: 300%;
+	color: #fff3cd;
+}
+
+.headings {
+	text-align: center;
+	color: #ffc38b;
+	font-size: 150%;
+}
+
+
+li {
+	font-family: Calibri;
+	font-size: 120%;
+	color: #ff926b;
+	padding: 5px 0px;
+}
