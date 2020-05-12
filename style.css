@@ -23,11 +23,27 @@ h2 {
 }
 
 
-
-li,a, p{
+li, p{
 	font-family: Calibri;
 	font-size: 120%;
 	color: #ff926b;
 	padding: 5px 0px;
-	text-decoration: none
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #fff3cd;
+	font-size: 120%;
+}
+
+#footer {
+	font-size: 100%;
+	color: #fff3cd;
+	text-align: center;
+	font-weight: normal
 }
