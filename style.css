@@ -3,8 +3,15 @@ body {
 }
 
 #title {
-	text-align: center;
+	padding: 8%;
+}
+
+#maintitle {
 	padding: 15%;
+}
+
+h2 {
+	text-align: center;
 	font-size: 300%;
 	color: #fff3cd;
 }
@@ -16,9 +23,11 @@ body {
 }
 
 
-li {
+
+li,a, p{
 	font-family: Calibri;
 	font-size: 120%;
 	color: #ff926b;
 	padding: 5px 0px;
+	text-decoration: none
 }
