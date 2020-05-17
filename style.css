@@ -10,6 +10,21 @@ body {
 	padding: 15%;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0%;
+	padding-left: 0%
+}
+
+
+header p {
+	color: #ffc38b;
+	/*font-size: 100%*/
+}
+
+
+
 h2 {
 	text-align: center;
 	font-size: 300%;
@@ -21,6 +36,8 @@ h2 {
 	color: #ffc38b;
 	font-size: 150%;
 }
+
+
 
 
 li, p{
@@ -41,9 +58,10 @@ a:hover {
 	font-size: 120%;
 }
 
-#footer {
-	font-size: 100%;
+footer p {
+	font-size: 90%;
 	color: #fff3cd;
 	text-align: center;
-	font-weight: normal
+	font-weight: normal;
+	padding-top: 6%
 }
