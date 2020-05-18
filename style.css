@@ -1,94 +1,73 @@
 body {
-	background: #4d3e3e
+  background: #4d3e3e;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 0%;
-	padding-left: 0%;
-	/*background: blue;*/
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0%;
+  padding-left: 0%;
 }
-
 
 header p {
-	color: #ffc38b;
+  color: #ffc38b;
 }
 
-
 h2 {
-	text-align: center;
-	font-size: 300%;
-	color: #fff3cd;
+  text-align: center;
+  font-size: 300%;
+  color: #fff3cd;
 }
 
 #title {
-	padding: 8%;
+  padding: 8%;
 }
-
 
 @media screen and (min-width: 780px) {
   #index_title {
-	padding: 10%;
-	}
+    padding: 10%;
+  }
 }
-
 @media screen and (max-width: 779px) {
   #index_title {
-	padding: 15%;
-
-	}
+    padding: 15%;
+  }
 }
-
-
 .headings {
-	text-align: center;
-	color: #ffc38b;
-	font-size: 150%;
+  text-align: center;
+  color: #ffc38b;
+  font-size: 150%;
 }
-
-
 
 #BodyContent {
-	display: flex;
-	align-items: center;
-  	justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#Projects {
-
+li, p {
+  font-family: Calibri;
+  font-size: 120%;
+  color: #ff926b;
+  padding: 5px 0px;
 }
-
-#Thoughts {
-
-}
-
-
-li, p{
-	font-family: Calibri;
-	font-size: 120%;
-	color: #ff926b;
-	padding: 5px 0px;
-	
-}
-
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-
 a:hover {
-	color: #fff3cd;
-	font-size: 120%;
+  color: #fff3cd;
+  font-size: 120%;
 }
 
 footer p {
-	font-size: 90%;
-	color: #fff3cd;
-	text-align: center;
-	font-weight: normal;
-	padding-top: 6%
+  font-size: 90%;
+  color: #fff3cd;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 6%;
 }
+
+/*# sourceMappingURL=style.css.map */

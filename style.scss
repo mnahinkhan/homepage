@@ -1,0 +1,99 @@
+$maroon: #4d3e3e;
+$off_white: #fff3cd;
+$yellow: #ffc38b;
+$orange: #ff926b;
+
+
+body {
+	background: $maroon
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0%;
+	padding-left: 0%;
+}
+
+
+header p {
+	color: $yellow;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 300%;
+	color: $off_white;
+}
+
+#title {
+	padding: 8%;
+}
+
+
+@media screen and (min-width: 780px) {
+  #index_title {
+	padding: 10%;
+	}
+}
+
+@media screen and (max-width: 779px) {
+  #index_title {
+	padding: 15%;
+
+	}
+}
+
+
+.headings {
+	text-align: center;
+	color: $yellow;
+	font-size: 150%;
+}
+
+
+
+#BodyContent {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+#Projects {
+
+}
+
+#Thoughts {
+
+}
+
+
+li, p{
+	font-family: Calibri;
+	font-size: 120%;
+	color: $orange;
+	padding: 5px 0px;
+	
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+a:hover {
+	color: $off_white;
+	font-size: 120%;
+}
+
+footer p {
+	font-size: 90%;
+	color: $off_white;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 6%
+}
