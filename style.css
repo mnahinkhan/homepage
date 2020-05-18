@@ -2,27 +2,18 @@ body {
 	background: #4d3e3e
 }
 
-#title {
-	padding: 8%;
-}
-
-#maintitle {
-	padding: 15%;
-}
-
 header {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 0%;
-	padding-left: 0%
+	padding-left: 0%;
+	/*background: blue;*/
 }
 
 
 header p {
 	color: #ffc38b;
-	/*font-size: 100%*/
 }
-
 
 
 h2 {
@@ -31,6 +22,25 @@ h2 {
 	color: #fff3cd;
 }
 
+#title {
+	padding: 8%;
+}
+
+
+@media screen and (min-width: 780px) {
+  #index_title {
+	padding: 10%;
+	}
+}
+
+@media screen and (max-width: 779px) {
+  #index_title {
+	padding: 15%;
+
+	}
+}
+
+
 .headings {
 	text-align: center;
 	color: #ffc38b;
@@ -38,6 +48,21 @@ h2 {
 }
 
 
+
+#BodyContent {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+#Projects {
+
+}
+
+#Thoughts {
+
+}
 
 
 li, p{
@@ -48,10 +73,12 @@ li, p{
 	
 }
 
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
 
 a:hover {
 	color: #fff3cd;
