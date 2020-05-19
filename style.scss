@@ -2,10 +2,13 @@ $maroon: #4d3e3e;
 $off_white: #fff3cd;
 $yellow: #ffc38b;
 $orange: #ff926b;
+$gray: #cbcbcb;
+$mud: #3b3636;
+$dark_red: #460000;
 
 
 body {
-	background: $maroon
+	background: $maroon;
 }
 
 header {
@@ -13,12 +16,19 @@ header {
 	justify-content: space-between;
 	padding-top: 0%;
 	padding-left: 0%;
+	align-items: top;
 }
 
+header {
+	background-color: $mud;
+}
 
 header p {
-	color: $yellow;
+	color: $gray;
 	font-family: serif;
+	font-size: 120%;
+	line-height: 0px;
+	vertical-align: top;
 }
 
 
@@ -64,7 +74,7 @@ h2 {
 }
 
 
-.headings {
+#content .headings, .headings {
 	text-align: center;
 	color: $yellow;
 	font-size: 150%;
@@ -109,6 +119,16 @@ li, p{
 	
 }
 
+#content {
+	padding: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%
+}
+
+#content p {
+	text-align: justify; 
+}
+
 
 a {
 	text-decoration: none;
@@ -126,5 +146,5 @@ footer p {
 	color: $off_white;
 	text-align: center;
 	font-weight: normal;
-	padding-top: 6%
+	padding-top: 6%;
 }

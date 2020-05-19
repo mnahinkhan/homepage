@@ -7,11 +7,19 @@ header {
   justify-content: space-between;
   padding-top: 0%;
   padding-left: 0%;
+  align-items: top;
+}
+
+header {
+  background-color: #3b3636;
 }
 
 header p {
-  color: #ffc38b;
+  color: #cbcbcb;
   font-family: serif;
+  font-size: 120%;
+  line-height: 0px;
+  vertical-align: top;
 }
 
 h2 {
@@ -51,7 +59,7 @@ h2 {
     padding: 15%;
   }
 }
-.headings {
+#content .headings, .headings {
   text-align: center;
   color: #ffc38b;
   font-size: 150%;
@@ -83,6 +91,16 @@ li, p {
   font-size: 120%;
   color: #ff926b;
   padding: 5px 0px;
+}
+
+#content {
+  padding: 5%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+#content p {
+  text-align: justify;
 }
 
 a {
