@@ -8,7 +8,7 @@ $dark_red: #460000;
 
 
 body {
-	background: $maroon;
+	background: #0b0c10;
 }
 
 header {
@@ -17,10 +17,10 @@ header {
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: $mud;
+	background-color: #1f2833;
 
 	p {
-		color: $gray;
+		color: #c5c6c7;
 		font-family: serif;
 		font-size: 120%;
 		line-height: 0px;
@@ -31,8 +31,8 @@ header {
 
 h2 {
 	text-align: center;
-	font-size: 350%;
-	color: $off_white;
+	font-size: 450%;
+	color: #c5c6c7;
 	font-family: sans-serif;
 }
 
@@ -50,6 +50,10 @@ h2 {
 #Post_content {
 	padding-top: 20%;
 	padding: 5%;
+
+	p {
+		color: #c5c6c7;
+	}
 }
 
 #Post_content p {
@@ -137,7 +141,7 @@ img {
 li, p{
 	font-family: sans-serif;
 	font-size: 120%;
-	color: $orange;
+	color: #66f3f1;
 	padding: 5px 0px;
 	
 }
