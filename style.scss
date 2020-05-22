@@ -14,30 +14,28 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 0%;
-	padding-left: 0%;
-	align-items: top;
-}
-
-header {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: $mud;
-}
 
-header p {
-	color: $gray;
-	font-family: serif;
-	font-size: 120%;
-	line-height: 0px;
-	vertical-align: top;
+	p {
+		color: $gray;
+		font-family: serif;
+		font-size: 120%;
+		line-height: 0px;
+		vertical-align: top;
+	}
 }
 
 
 h2 {
 	text-align: center;
-	font-size: 300%;
+	font-size: 350%;
 	color: $off_white;
-	font-family: sans-serif
+	font-family: sans-serif;
 }
+
 
 #title {
 	padding: 8%;
@@ -60,48 +58,73 @@ h2 {
 	font-family: serif;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 800px) {
   #index_title {
-	padding: 10%;
-	}
+	padding-top: 15%;
+	padding-bottom: 15%
+	}	
+
+	#index_title:before {
+  	content: "Welcome to my world!"
+  	}
+
+  	#index_commentary:before{
+  		content: "This is a place where I try to showcase some of the things that keep me busy.";
+  	}
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 799px) {
   #index_title {
-	padding: 15%;
+	padding-top: 25%;
+	padding-bottom: 25%
 
 	}
+
+	#index_title:before {
+  	content: "Welcome!"
+  }
+
+  #index_commentary:before{
+  		content: "This is a place where I like to show things.";
+  	}
 }
 
 
-#content .headings, .headings {
+%heading_type {
 	text-align: center;
 	color: $yellow;
-	font-size: 150%;
-	font-family: serif
+
+}
+
+#content .headings, .headings {
+	@extend %heading_type;
+	font-size: 130%;
+	font-family: sans-serif
 }
 
 .post_date {
-	text-align: center;
-	color: $yellow;
+	@extend %heading_type;
 	font-size: 120%;
 	padding-top: 0%
 
 }
 
-#BodyContent {
-	display: flex;
-	align-items: center;
-  	justify-content: center;
-
+.listing_of_things {
 }
 
-#Projects {
+// #BodyContent {
+// 	// display: flex;
+// 	align-items: center;
+//   	justify-content: center;
 
-}
+// }
+
+// #Projects {
+// 	margin: auto;
+// }
 
 #Thoughts {
-
+	padding-left: 26px
 }
 
 img {
@@ -122,12 +145,13 @@ li, p{
 #content {
 	padding: 5%;
 	padding-top: 0%;
-	padding-bottom: 0%
+	padding-bottom: 0%;
+
+	p {
+		text-align: justify; 
+	}
 }
 
-#content p {
-	text-align: justify; 
-}
 
 
 a {

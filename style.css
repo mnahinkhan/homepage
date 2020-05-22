@@ -5,15 +5,11 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 0%;
-  padding-left: 0%;
-  align-items: top;
-}
-
-header {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #3b3636;
 }
-
 header p {
   color: #cbcbcb;
   font-family: serif;
@@ -24,7 +20,7 @@ header p {
 
 h2 {
   text-align: center;
-  font-size: 300%;
+  font-size: 350%;
   color: #fff3cd;
   font-family: sans-serif;
 }
@@ -49,34 +45,51 @@ h2 {
   font-family: serif;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 800px) {
   #index_title {
-    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  #index_title:before {
+    content: "Welcome to my world!";
+  }
+
+  #index_commentary:before {
+    content: "This is a place where I try to showcase some of the things that keep me busy.";
   }
 }
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 799px) {
   #index_title {
-    padding: 15%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  #index_title:before {
+    content: "Welcome!";
+  }
+
+  #index_commentary:before {
+    content: "This is a place where I like to show things.";
   }
 }
-#content .headings, .headings {
+.post_date, #content .headings, .headings {
   text-align: center;
   color: #ffc38b;
-  font-size: 150%;
-  font-family: serif;
+}
+
+#content .headings, .headings {
+  font-size: 130%;
+  font-family: sans-serif;
 }
 
 .post_date {
-  text-align: center;
-  color: #ffc38b;
   font-size: 120%;
   padding-top: 0%;
 }
 
-#BodyContent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#Thoughts {
+  padding-left: 26px;
 }
 
 img {
@@ -98,7 +111,6 @@ li, p {
   padding-top: 0%;
   padding-bottom: 0%;
 }
-
 #content p {
   text-align: justify;
 }
