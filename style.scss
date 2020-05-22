@@ -50,12 +50,23 @@ h2 {
 #Post_content {
 	padding-top: 20%;
 	padding: 5%;
+
+	table {
+		width: 100%;
+		border: solid;
+	}
+
+	tr, td, th {
+		text-align: center;
+		font-family: sans-serif;
+		color: $orange;
+	}
 }
 
 #Post_content p {
 	text-align: justify;
 	padding-top: 5%;
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 @media screen and (min-width: 800px) {
@@ -96,10 +107,10 @@ h2 {
 
 }
 
-#content .headings, .headings {
+#Post_content .headings, #content .headings, .headings {
 	@extend %heading_type;
 	font-size: 130%;
-	font-family: sans-serif
+	font-family: sans-serif;
 }
 
 .post_date {

@@ -38,11 +38,20 @@ h2 {
   padding-top: 20%;
   padding: 5%;
 }
+#Post_content table {
+  width: 100%;
+  border: solid;
+}
+#Post_content tr, #Post_content td, #Post_content th {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ff926b;
+}
 
 #Post_content p {
   text-align: justify;
   padding-top: 5%;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 @media screen and (min-width: 800px) {
@@ -73,12 +82,12 @@ h2 {
     content: "This is a place where I like to show things.";
   }
 }
-.post_date, #content .headings, .headings {
+.post_date, #Post_content .headings, #content .headings, .headings {
   text-align: center;
   color: #ffc38b;
 }
 
-#content .headings, .headings {
+#Post_content .headings, #content .headings, .headings {
   font-size: 130%;
   font-family: sans-serif;
 }
